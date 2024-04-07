@@ -1,0 +1,466 @@
+@media screen and (max-width: 1024px) {
+    
+    .sidebar {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    }
+
+    .sidebar nav ul {
+        margin-top: 7px;
+    }
+
+    .library .library__button{
+        font-size: 15px;
+    }
+
+    .library {
+        height: 63vh;
+    }
+
+    .sidebar .cookies{
+        margin: 0 14px;
+    }
+
+    .header__navigation .navigation{
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .arrow-left, .arrow-right {
+        height: 27px;
+        width: 27px;
+        margin-right: 8px;
+    }
+
+    .header__search{
+        width: 300px;
+        height: 42px;
+        margin: 0 0 0 0;
+        
+    }
+
+    .header__search img{
+        width: 14px;
+        height: 14px;
+        margin-left: 10px;
+    }
+
+    .header__navigation{
+        width: 628px;
+    }
+
+    .header__login .subscribe{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    
+    .header__login .login{
+        width: 100px;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .main-container {
+        max-width: 80vw;
+        height: 10vh;
+        margin-left: 360px;
+        margin-right: 10px;
+    }
+
+    .playlist-container {
+        position:absolute;
+        max-width: 80vw;
+        width: 646px;
+        height: 77.8vh;
+        display: flex;
+        margin: 5px 10px 0 370px;
+        border-radius: 0 0 8px 8px;
+        flex-direction: column;
+        color: #fff;
+        background-color: #121212;
+    }
+
+    .playlist h1,h2 {
+        margin: 22px 0 0 0;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .offer__list-item{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        padding-bottom: 20px;
+    }
+
+    .offer__scroll-container {
+        max-height: 61vh;
+        margin: 24px;
+        overflow-y: auto;
+    }
+
+    .cards {
+        position: relative; 
+        width: 192px;
+        height: 186px;
+        overflow: hidden;
+        border-radius: 8px;
+      }
+      
+    .cards span {
+        padding: 16px;
+        position: absolute;
+        color: #fff;
+        font-size: 22px;
+        font-weight: bold;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      
+
+    footer .footer__content {
+        width: 986px;
+        margin-left: 12px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .sidebar {
+    font-size: 14px;
+    width: 230px;
+    height: auto;
+    }
+
+    .sidebar nav ul {
+        margin-top: 10px;
+        padding: 0 0px 10px 15px;
+    }
+    
+    .sidebar ul li {
+        padding: 8px 0;
+    }
+
+    .library .library__button{
+        font-size: 15px;
+    }
+
+    .library {
+        height: 63vh;
+    }
+
+    .section-podcasts {
+        margin: 8px 0 2px 0;
+    }
+
+    .sidebar .cookies{
+        margin: 0 14px;
+    }
+
+    .languages .languages__button{
+        font-size: 12px;
+        width: 160px;
+        margin-bottom: 10px;
+    }
+
+    /*MAIN-CONTENT*/
+
+    .header__navigation .navigation{
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .arrow-left, .arrow-right {
+        height: 27px;
+        width: 27px;
+        margin-right: 18px;
+    }
+
+    .header__search{
+        position:absolute;
+        width: 240px;
+        height: 40px;
+        margin: 0 0 0 0;
+    }
+
+    .header__search img{
+        width: 14px;
+        height: 14px;
+        margin-left: 10px;
+    }
+
+    .header__navigation{
+        width: 492px;
+    }
+
+    .header__login .subscribe{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    
+    .header__login .login{
+        width: 90px;
+        height: 38px;
+        font-size: 13px;
+    }
+
+    .main-container {
+        max-width: 80vw;
+        height: 8.7vh;
+        margin-left: 240px;
+        margin-right: 10px;
+    }
+
+    .playlist-container {
+        position:absolute;
+        max-width: 80vw;
+        width: 510px;
+        height: 78.4vh;
+        display: flex;
+        margin: 5px 10px 0 250px;
+        border-radius: 0 0 8px 8px;
+        flex-direction: column;
+        color: #fff;
+        background-color: #121212;
+    }
+
+    .playlist h1,h2 {
+        margin: 22px 0 0 0;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .offer__list-item{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        padding-bottom: 20px;
+    }
+
+    .offer__scroll-container {
+        max-height: 61vh;
+        margin: 24px;
+        overflow-y: auto;
+    }
+
+    .cards {
+        position: relative; 
+        width: 142px;
+        height: 138px;
+        overflow: hidden;
+        border-radius: 8px;
+      }
+      
+    .cards span {
+        padding: 16px;
+        position: absolute;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .offer__list-item img {
+        height: auto;
+        width: 83px;
+        transform: rotate(25deg) translate(18%, -2%);
+      }
+      
+
+      
+
+    footer .footer__content {
+        width: 732px;
+        height: 50px;
+        margin-left: 12px;
+    }
+
+    footer .footer__content a span{
+        font-size: 13.3px;
+        font-weight: 600;
+    }
+    
+    footer .footer__content a p {
+        font-size: 12.5px;
+        font-weight: 600;
+    }
+    
+    footer .footer__button {
+        font-size: 13px;
+        padding: 13px;
+        width:195px;
+    }
+    
+}
+
+@media screen and (max-width: 425.60px) {
+
+/*SIDEBAR e FOOTER*/
+
+    .sidebar {
+    font-size: 13px;
+    width: 210px;
+    height: auto;
+    }
+
+    .sidebar nav ul {
+        margin-top: 10px;
+        padding: 0 0px 10px 15px;
+    }
+    
+    .sidebar ul li {
+        padding: 8px 0;
+    }
+
+    .library .library__button{
+        font-size: 15px;
+    }
+
+    .library {
+        height: 63vh;
+    }
+
+    .section-podcasts {
+        margin: 8px 0 2px 0;
+    }
+
+    .sidebar .cookies{
+        margin: 0 14px;
+    }
+
+    .languages .languages__button{
+        font-size: 12px;
+        width: 160px;
+        margin-bottom: 10px;
+    }
+
+    /*MAIN-CONTENT*/
+
+    .header__navigation .navigation{
+        display:flex;
+        justify-content:space-between;
+    }
+
+    .arrow-left, .arrow-right {
+        height: 27px;
+        width: 27px;
+        margin-right: 18px;
+    }
+
+    .header__search{
+        position:absolute;
+        width: 240px;
+        height: 40px;
+        margin: 0 0 0 0;
+    }
+
+    .header__search img{
+        width: 14px;
+        height: 14px;
+        margin-left: 10px;
+    }
+
+    .header__navigation{
+        width: 492px;
+    }
+
+    .header__login .subscribe{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    
+    .header__login .login{
+        width: 90px;
+        height: 38px;
+        font-size: 13px;
+    }
+
+    .main-container {
+        max-width: 80vw;
+        height: 8.7vh;
+        margin-left: 240px;
+        margin-right: 10px;
+    }
+
+    .playlist-container {
+        position:absolute;
+        max-width: 80vw;
+        width: 510px;
+        height: 78.4vh;
+        display: flex;
+        margin: 5px 10px 0 250px;
+        border-radius: 0 0 8px 8px;
+        flex-direction: column;
+        color: #fff;
+        background-color: #121212;
+    }
+
+    .playlist h1,h2 {
+        margin: 22px 0 0 0;
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .offer__list-item{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8px;
+        padding-bottom: 20px;
+    }
+
+    .offer__scroll-container {
+        max-height: 61vh;
+        margin: 24px;
+        overflow-y: auto;
+    }
+
+    .cards {
+        position: relative; 
+        width: 142px;
+        height: 138px;
+        overflow: hidden;
+        border-radius: 8px;
+      }
+      
+    .cards span {
+        padding: 16px;
+        position: absolute;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .offer__list-item img {
+        height: auto;
+        width: 83px;
+        transform: rotate(25deg) translate(18%, -2%);
+      }
+      
+
+      
+
+    footer .footer__content {
+        width: 732px;
+        height: 50px;
+        margin-left: 12px;
+    }
+
+    footer .footer__content a span{
+        font-size: 13.3px;
+        font-weight: 600;
+    }
+    
+    footer .footer__content a p {
+        font-size: 12.5px;
+        font-weight: 600;
+    }
+    
+    footer .footer__button {
+        font-size: 13px;
+        padding: 13px;
+        width:195px;
+    }
+    
+}
